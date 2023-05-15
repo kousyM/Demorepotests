@@ -21,3 +21,19 @@ For example, `git push origin new-branch`.
 git push --set-upstream origin testbanch
 
 After completing these steps, you should see the new branch and your code changes in your Git account.
+
+To merge changes from one branch to another using Git, you can follow these steps:
+
+1. Make sure you are in the target branch (the branch you want to merge the changes into) using the terminal. For example, `git checkout target-branch`.
+2. Merge the source branch (the branch you want to merge changes from) into the target branch using the `git merge` command followed by the source branch name. For example, `git merge source-branch`.
+3. Resolve any merge conflicts if they occur. Git will prompt you to resolve any conflicts that arise during the merge process. You can use a text editor or a merge tool to resolve the conflicts.
+4. Commit the changes using the `git commit` command with a message describing the merge. For example, `git commit -m "Merged changes from source-branch into target-branch"`
+5. Push the changes to the remote repository using the `git push` command. For example, `git push origin target-branch`.
+
+After completing these steps, the c
+
+
+dfhdsjfshdfj
+
+
+hanges from the source branch should be merged into the target branch. Note that if there are conflicts during the merge process, you will need to resolve them manually before committing the changes.
