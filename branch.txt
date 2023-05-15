@@ -1,0 +1,23 @@
+If you created a branch locally using the terminal, you still need to push it to your remote Git repository (e.g., GitHub) to see it in your Git account. Here are the steps to do so:
+
+1. Make sure you are in the Git repository directory using the terminal.
+2. Create a new branch using the `git branch` command followed by the branch name. 
+For example, `git branch new-branch`.
+
+3. Switch to the new branch using the `git checkout` command. 
+For example, `git checkout new-branch`. git checkout testbanch
+
+4. Make changes to your code as needed and stage them using 
+the `git add` command followed by the file names or `.` to stage all changes. 
+
+For example, `git add file1.py file2.py` or `git add .`.  git add file1.txt
+
+5. Commit your changes using the `git commit` command followed by a commit message describing the changes you made.
+ For example, `git commit -m "Added new feature to file1.py"`.
+
+6. Push your changes to the remote repository using the `git push` command followed by the branch name. 
+For example, `git push origin new-branch`.
+
+git push --set-upstream origin testbanch
+
+After completing these steps, you should see the new branch and your code changes in your Git account.
